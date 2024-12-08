@@ -23,7 +23,7 @@ Para iniciar o servidor:
 ##
 
 ### Adicione ou remova usuários
-Os comandos para adiconar e remover usuarios do Servidor estão listadas no arquivo `requests.http`
+Os comandos para adiconar e remover usuários do Servidor estão listadas no arquivo `requests.http`
 
 É necessário que:
 1. Instale a extensão *REST Client* no seu **VSCode**
