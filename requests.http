@@ -1,0 +1,32 @@
+### FUNÇÕES
+
+### Parar o servidor
+POST   http://localhost:3000/parar
+
+#----------------------------------#
+
+### Adicionar múltiplos usuários
+POST   http://localhost:3000/usuarios/multiple
+Content-Type: application/json
+
+[
+    {
+        "nome": "exemplo1",
+        "email": "exemplo1@gmail.com"
+    },
+    {
+        "nome": "exemplo2",
+        "email": "exemplo2@gmail.com"
+    }
+]
+
+#----------------------------------#
+
+### Adicionar somente um usuário
+POST   http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "nome": "exemplo1",
+    "email": "exemplo1@gmail.com"
+}
