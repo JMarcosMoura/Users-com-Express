@@ -30,3 +30,13 @@ Content-Type: application/json
     "nome": "exemplo1",
     "email": "exemplo1@gmail.com"
 }
+
+#----------------------------------#
+
+### Remover todos os usuários
+DELETE   http://localhost:3000/usuarios
+
+#----------------------------------#
+
+### Remover usuário pelo ID
+DELETE   http://localhost:3000/usuarios/ID
